@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cat-info {
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card-set-item {
+    flex-basis: calc((100% - 1 * 50px) / 2);
+}
+
+
+.cat-breed {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.cat-breed-description {
+    margin-bottom: 15px;
+}
+
+
+.js-hidden {
+   display: none;
+}
+
+.loader {
+    opacity: 0;
+}
+
+.breed-select {
+    margin-bottom: 60px;
+    max-width: 350px;
+}
+
+
